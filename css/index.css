@@ -133,6 +133,7 @@
 .find-commodity-cover .find-commodity {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .find-commodity-cover .find-commodity .find-search {
     width: 190px;
@@ -144,4 +145,27 @@
     height: 260px;
     width: 990px;
     background-color: pink;
+}
+
+.shop-nav {
+    display: flex;
+    justify-content: center;
+}
+.shop-nav .nav-items {
+    width: 290px;
+    height: 340px;
+    margin-right: 10px;
+    color: #fff;
+}
+.shop-nav .news {
+    background-color: skyblue;
+}
+.shop-nav .top {
+    background-color: red;
+}
+.shop-nav .goods {
+    background-color: green;
+}
+.shop-nav .ticket {
+    background-color: yellow;
 }
